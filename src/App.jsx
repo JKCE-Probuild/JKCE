@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
 import styled, { ThemeProvider } from 'styled-components'
 import { lazy, Suspense, useEffect, useRef } from 'react'
+import { SpeedInsights } from '@vercel/speed-insights/react'
 import { theme } from './styles/theme'
 import { GlobalStyle } from './styles/GlobalStyle'
 import { useSmoothScroll } from './hooks/useSmoothScroll'
@@ -111,6 +112,7 @@ export default function App() {
       <BrowserRouter>
         <AppShell />
       </BrowserRouter>
+      <SpeedInsights />
     </ThemeProvider>
   )
 }
