@@ -18,10 +18,10 @@ export function OrganizationSchema() {
       email: companyInfo.email,
       address: {
         '@type': 'PostalAddress',
-        streetAddress: '14671 Burrows Rd',
+        streetAddress: '110 12111 Bridgeport Road',
         addressLocality: 'Richmond',
         addressRegion: 'BC',
-        postalCode: 'V6V 1K9',
+        postalCode: 'V6V 1J4',
         addressCountry: 'CA',
       },
       areaServed: 'Greater Vancouver, BC',

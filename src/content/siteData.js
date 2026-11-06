@@ -9,7 +9,7 @@ export const primaryNav = [
 
 export const companyInfo = {
   name: 'JKCE PROBUILD',
-  address: '14671 Burrows Rd, Richmond, BC V6V 1K9',
+  address: '110 12111 Bridgeport Road, Richmond, BC V6V 1J4',
   phone: '(604) 729 6583',
   phoneHref: 'tel:+16047296583',
   email: 'info@jkceprobuild.com',
@@ -644,7 +644,7 @@ export const contactContent = {
   details: [
     { label: 'Email', value: companyInfo.email, href: companyInfo.emailHref, icon: '@' },
     { label: 'Phone', value: companyInfo.phone, href: companyInfo.phoneHref, icon: '+' },
-    { label: 'Address', value: companyInfo.address, href: 'https://maps.google.com/?q=14671+Burrows+Rd+Richmond+BC+V6V+1K9', icon: '[]' },
+    { label: 'Address', value: companyInfo.address, href: 'https://maps.google.com/?q=110+12111+Bridgeport+Road+Richmond+BC+V6V+1J4', icon: '[]' },
   ],
   form: {
     title: 'Project Inquiry',

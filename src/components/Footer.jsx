@@ -235,7 +235,7 @@ export function Footer() {
             <Col>
               <h4>Visit</h4>
               <ul>
-                <li><p>14671 Burrows Rd,<br />Richmond, BC V6V 1K9</p></li>
+                <li><p>110 12111 Bridgeport Road,<br />Richmond, BC V6V 1J4</p></li>
                 <li><a href={companyInfo.phoneHref}>{companyInfo.phone}</a></li>
                 <li><a href={companyInfo.emailHref}>{companyInfo.email}</a></li>
               </ul>
