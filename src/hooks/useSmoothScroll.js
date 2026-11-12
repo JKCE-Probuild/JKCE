@@ -34,13 +34,16 @@ export function useSmoothScroll() {
     // 将 lenis 实例挂到 window,方便其它组件(比如导航锚点跳转)调用
     window.lenis = lenis
 
+    let rafId
+
     function raf(time) {
       lenis.raf(time)
-      requestAnimationFrame(raf)
+      rafId = requestAnimationFrame(raf)
     }
-    requestAnimationFrame(raf)
+    rafId = requestAnimationFrame(raf)
 
     return () => {
+      cancelAnimationFrame(rafId)
       lenis.destroy()
       delete window.lenis
     }
